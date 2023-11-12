@@ -1,0 +1,51 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+p{
+  color:gray;
+}
+
+#box{
+  animation:2s ease-in forwards;
+  box-shadow: none;
+  border: 2px solid rgb(237, 237, 237);
+   border-radius: 6px;
+   /* color:#7564f835; */
+
+}
+@keyframes boxFadeEffect {
+  0%{
+    opacity: .2;
+  }
+
+  100%{
+    opacity: 1;
+
+  }
+}
+
+body{
+  font-family: "Montserrat";
+}
+
+
+/* Dashboard */
+
+.dashboard{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 100vh;
+  width: 98%;
+
+}
+
+
+
+
+/* LEFT SIDEBAR COMPONENT */
+
+
+
+
+/*  */

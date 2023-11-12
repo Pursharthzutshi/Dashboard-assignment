@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+.intensity-box h3,.intensity-box{
+  color: white;
+}
+.intensity-box h3{
+  margin-top: 3px;
+}
+.intensity-box span{
+  font-size: .8rem;
+}
+
+
+
+  .intensity-box:hover{
+    transition: .2s;
+    transform: scale(1.02);
+
+  }
+
+  .intensity-box img{
+    width: 8rem;
+    height: auto;
+    margin: 12px 17px 2px 2px;
+  }
+
+.intensity-data-div{
+  color: white;
+  margin-top: 40px;
+  display: flex;
+  max-width: 53%;
+  flex-wrap: wrap;
+
+  }
+
+  
+.intensity-data-div:hover{
+}
+
+  .intensity-data,.intensity-data-value{
+    margin-left: -8px;
+    margin-top: 2px;
+    color: white;
+    font-size: .85rem;
+    padding: 4px 18px 6px 18px;
+    border-radius: 4px;
+    }
+    
+    .intensity-data{
+      background: #685ed8;
+    }
+
+  .intensity-data .intensity{
+    border: 2px solid black;
+  }
+
+  
+  .intensity-data-div-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 1rem;
+  }
+
+  .intensity-data-div-content button{
+    width: 13%;
+    opacity: .9;
+    border-radius: 3px;
+    border: 1.3px solid #4b0074;
+    margin-top: 20px;
+    background: linear-gradient(to left,rgba(179, 78, 220, 0.463),#ab40e57b);
+    color:#14011e;
+    font-size: .77rem;
+    letter-spacing: 1px;
+    font-family: "Poppins";
+    padding: 6px 8px 7px 6px;
+    transform: translate(10px);
+
+  }
+
+  
+  .intensity-data-div-content button:hover{
+    transition: .7s;
+    background: white;
+    color:black;
+    cursor: pointer;
+  }
+
+  .intensity-box{
+    margin-left: -2px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    border-radius: 6px;
+    margin-top: 20px;
+    background: #7367f0;
+    box-shadow: .2px .2px 12px .2px rgb(242, 242, 242);
+    padding:12px 24px 2px 26px;
+    width: 100%;
+    height: 27vh;
+    gap:50px;
+    transition: .2s;
+    animation: buttonAnimation 1s ease;
+  }
+/* 
+  @keyframes buttonAnimation {
+    0%{
+      background: red;
+      opacity: .4;
+    }
+
+    100%{
+      background: green;
+      opacity: 1;
+
+    }
+  } */

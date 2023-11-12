@@ -1,0 +1,28 @@
+.pestle-box{
+    padding-left: 20px;
+    margin-top: 0px;
+    width: 19.3%;
+    height: 56vh;
+    overflow-y: scroll;
+    
+}
+
+.pestle-box input{
+    width: 90%;
+    outline: none;
+    border: none;
+    padding: 7px 0px 6px 12px;
+    box-shadow: .2px .2px 2px .2px rgb(230, 230, 230);
+    border-right: 20px;
+}
+
+.pestle-box input:hover{
+    transition: .1s;
+    transform: scale(1.03);
+    border-left: 2px solid rgb(67, 2, 137);
+    
+}
+
+.pestle-div p{
+    text-shadow: .2px .2px 1.3px ;
+}

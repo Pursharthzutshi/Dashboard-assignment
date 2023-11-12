@@ -1,0 +1,146 @@
+.topics-content-text-icon-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.topics-heading{
+    margin-left: -13px;
+}
+
+.filter-select{
+    margin-top: 10px;
+    box-shadow: .2px .2px 12px .2px whitesmoke;
+    border: none;
+    padding: 2px 2px 2px 12px;
+    font-family: "Montserrat";
+    height: 4vh;
+}
+
+
+.filter-options{
+    margin-top: 10px;
+    box-shadow: .2px .2px 12px .2px whitesmoke;
+    border: none;
+    padding: 2px 2px 2px 12px;
+    font-family: "Montserrat";
+    height: 4vh;
+}
+
+.topics-div{
+    margin-left: -20px;
+}
+
+.all-topics-content-container{
+    width: 93%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.show-all-topics-filter-button{
+    cursor: pointer;
+    height: 3.7vh;
+    margin-top: 22px;
+    border: none;
+    font-family: "Montserrat";
+    padding:6px 12px 10px 12px;
+}
+
+.topics{
+    margin-left: -40px;
+    display: flex;
+    justify-content: flex-start;
+}
+.show-all-topics-filter-button:hover{
+    transition: .5s;
+     background: violet;
+}
+
+.topic-icon-relevance-value-row-container{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.topics-box{
+    margin-left: -130px;
+    height: 55vh;
+    box-shadow: .2px .2px 12px .2px whitesmoke;
+    padding: 2px 20px 2px 32px;
+    width: 16%;
+}
+
+.topics-content-text-icon-row{
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.topics-content-text-icon-row h4{
+    color: gray;
+}
+
+.topics h4{
+    
+    width: 100%;
+    text-align: center;
+}
+
+.positive-relevance-value{
+    color:rgb(5, 227, 5);
+}
+
+#positive-relevance-value,#negative-relevance-value{
+    margin-top: 14px;
+    opacity: .7;
+    font-size: 1.2rem;
+    padding:7px 2px 7px 2px;
+    border-radius: 4px;
+    animation: relevanceIconAnimation 4s infinite;
+}
+
+#positive-relevance-value{
+    color:rgb(1, 124, 70);
+    background: rgba(3, 201, 115, 0.584);
+    box-shadow: .2px .2px 3px .2px rgb(16, 246, 146);
+}
+
+#negative-relevance-value{
+    color:rgb(243, 79, 4);
+    background: rgb(255, 122, 122);
+    box-shadow: .2px .2px 3px .2px rgb(244, 22, 22);
+}
+
+
+.negative-relevance-value,#negative-relevance-value{
+    color: red;
+
+}
+
+@keyframes relevanceIconAnimation{
+    0%{
+        opacity: .8;
+
+    }
+    50%{
+        opacity: .9;
+        transform: rotate(20deg);
+        
+    }
+    100%{
+        opacity: 1;
+        
+    }
+   
+}
+
+.topic-icon-relevance-value-row{
+    display:flex;
+    justify-content: flex-end;
+    width: 100%;
+}
